@@ -1,0 +1,37 @@
+ *{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+ }
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    
+ }
+ .btn{
+    bbackground-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+  }
+  .btn:hover{background-color: aliceblue;
+             color:blueviolet;
+             -webkit-box-shadow: -29px -11px 43px -13px rgba(17,17,17,1);
+-moz-box-shadow: -29px -11px 43px -13px rgba(17,17,17,1);
+box-shadow: -29px -11px 43px -13px rgba(17,17,17,1);
+
+}
+ 
